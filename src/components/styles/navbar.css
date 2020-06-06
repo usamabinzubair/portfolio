@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap");
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nav__content {
+  width: 450px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 80px;
+}
+.logo {
+  font-size: 70px;
+  color: rgb(172, 169, 169);
+  padding-left: 70px;
+}
+
+.hover__link {
+  text-decoration: none;
+  color: rgb(172, 169, 169);
+  display: inline-block;
+  font-weight: lighter;
+  padding: 0 20px;
+  /* font-family: "Muli", sans-serif; */
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hover__link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #e41f39;
+  transition: width 0.3s;
+}
+
+.hover__link:hover::after {
+  width: 100%;
+  transition: 0.3s;
+}

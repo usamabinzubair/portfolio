@@ -1,0 +1,95 @@
+.contact-section {
+  height: 80vh;
+  background: rgb(192, 191, 191, 0.3);
+  background-image: url(../images/homeimg.jpg);
+  /* background-repeat: no-repeat; */
+}
+
+.contact {
+  font-family: "Share Tech Mono", monospace;
+  color: #e72e47;
+  box-shadow: 0px 10px 50px rgb(50, 62, 71);
+  background-color: rgba(82, 85, 88, 0.7);
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  height: 80vh;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.smallInput {
+  font-family: "Share Tech Mono", monospace;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 15px;
+  padding: 5px;
+  width: 500px;
+  caret-color: white;
+  color: white;
+  /* box-shadow: 0px 3px 40px rgb(255, 0, 0); */
+}
+
+.messageInput {
+  font-family: "Share Tech Mono", monospace;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 15px;
+  padding: 5px;
+  width: 500px;
+  caret-color: white;
+  color: white;
+}
+
+.submitBtn {
+  background-color: #e72e47;
+  font-size: 20px;
+  font-family: "Share Tech Mono", monospace;
+  outline: none;
+  border: 1px solid white;
+}
+
+.contactline {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 5px solid rgb(55, 106, 129);
+  box-shadow: 5px 5px 5px rgb(165, 181, 187);
+  margin-left: 29cm;
+  width: 61%;
+}
+
+.bottomBox {
+  background-color: rgb(55, 106, 129);
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.socialMediaIcons {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: rgb(165, 181, 187);
+  background: rgb(55, 106, 129);
+  margin-top: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+.socialMediaIcons:hover {
+  font-size: 43px;
+  color: white;
+}

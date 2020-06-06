@@ -1,0 +1,119 @@
+.work-section {
+  height: 70vh;
+  padding-left: 150px;
+  padding-right: 50px;
+  padding-top: 200px;
+  /* background-color: #303d47; */
+}
+
+.all__work {
+  width: 1000px;
+  height: 400px;
+}
+
+.three__boxes {
+  width: 1100px;
+  height: 250px;
+  display: flex;
+}
+
+/* .each__work {
+  width: 333px;
+  object-fit: cover;
+  box-shadow: 5px 5px 5px 5px rgb(214, 214, 214);
+  margin-right: 30px;
+  transition: 0.5s;
+}
+
+.each__work:hover {
+  box-shadow: 9px 9px 9px 9px rgb(214, 214, 214);
+}
+
+.each__work1 {
+  width: 333px;
+  object-fit: cover;
+  margin-right: 30px;
+  box-shadow: 5px 5px 5px 5px rgb(214, 214, 214);
+  transition: 0.5s;
+}
+
+.each__work1:hover {
+  box-shadow: 9px 9px 9px 9px rgb(214, 214, 214);
+} */
+
+.card {
+  width: 333px;
+  transform-style: preserve-3d;
+  perspective: 900px;
+  transition: 0.5s;
+  background: #f000;
+  height: 200px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.front {
+  position: absolute;
+  width: 333px;
+  object-fit: cover;
+  transition: 0.5s;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
+  box-shadow: 0px 10px 10px rgb(50, 62, 71);
+}
+
+.front img {
+  object-fit: cover;
+}
+
+.card:hover .front {
+  transform: rotateX(-180deg);
+}
+
+.back {
+  position: absolute;
+  width: 333px;
+  transition: 0.5s;
+  /* background-image: linear-gradient(
+    rgb(253, 241, 241),
+    rgb(230, 230, 230),
+    #faebed
+  ); */
+  background-color: rgb(50, 62, 71);
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 0.5s;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #e72e47;
+  box-shadow: 0px 10px 10px rgb(50, 62, 71);
+  text-decoration: none;
+}
+.card .back:before {
+  content: "";
+  position: absolute;
+  height: 200px;
+  width: 333px;
+}
+
+.card:hover .back {
+  transform: rotateX(0deg);
+}
+
+.details {
+  font-family: "Barlow Condensed", sans-serif;
+  /* color: rgb(95, 95, 138); */
+  color: rgb(199, 199, 199);
+  font-size: 20px;
+  /* text-shadow: 3px 3px 5px rgb(250, 166, 166); */
+  font-family: "Share Tech Mono", monospace;
+}
+.details h2 {
+  text-shadow: 3px 3px 3px #e72e47;
+  color: #e72e47;
+}
