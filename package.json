@@ -17,7 +17,7 @@
     "react-scroll": "^1.7.16"
   },
   "scripts": {
-    "predeoploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -41,6 +41,7 @@
   },
   "devDependencies": {
     "gh": "^2.8.8",
+    "gh-pages": "^3.0.0",
     "pages": "0.0.16"
   }
 }
