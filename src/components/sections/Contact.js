@@ -4,7 +4,6 @@ import MyForm from "./Myform";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTumblrSquare } from "react-icons/fa";
-import homeimg from "../images/homeimg.jpg";
 
 export default class Contact extends Component {
   render() {
