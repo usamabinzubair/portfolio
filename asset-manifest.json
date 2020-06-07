@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.63d1a3d0.chunk.css",
-    "main.js": "/portfolio/static/js/main.b6727874.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b6727874.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b6eb0c71.chunk.css",
+    "main.js": "/portfolio/static/js/main.a1397ca8.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a1397ca8.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.08e71136.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.08e71136.js.map",
-    "static/js/2.176dfa50.chunk.js": "/portfolio/static/js/2.176dfa50.chunk.js",
-    "static/js/2.176dfa50.chunk.js.map": "/portfolio/static/js/2.176dfa50.chunk.js.map",
+    "static/js/2.7fc67b83.chunk.js": "/portfolio/static/js/2.7fc67b83.chunk.js",
+    "static/js/2.7fc67b83.chunk.js.map": "/portfolio/static/js/2.7fc67b83.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.893d1967698f33a7857d562d52f90152.js": "/portfolio/precache-manifest.893d1967698f33a7857d562d52f90152.js",
+    "precache-manifest.295ed90f397d19abce21437cc8e22478.js": "/portfolio/precache-manifest.295ed90f397d19abce21437cc8e22478.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.63d1a3d0.chunk.css.map": "/portfolio/static/css/main.63d1a3d0.chunk.css.map",
-    "static/js/2.176dfa50.chunk.js.LICENSE.txt": "/portfolio/static/js/2.176dfa50.chunk.js.LICENSE.txt",
+    "static/css/main.b6eb0c71.chunk.css.map": "/portfolio/static/css/main.b6eb0c71.chunk.css.map",
+    "static/js/2.7fc67b83.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7fc67b83.chunk.js.LICENSE.txt",
     "static/media/apocalypse.jpg": "/portfolio/static/media/apocalypse.d9328fe1.jpg",
     "static/media/dicegme.jpg": "/portfolio/static/media/dicegme.893c9224.jpg",
-    "static/media/contact.css": "/portfolio/static/media/homeimg.f8037a27.jpg",
+    "static/media/homeimg.jpg": "/portfolio/static/media/homeimg.f8037a27.jpg",
+    "static/media/contact.css": "/portfolio/static/media/keyboard.69d112c6.jpeg",
     "static/media/keycode.jpg": "/portfolio/static/media/keycode.9c8287e0.jpg",
     "static/media/profile.jpg": "/portfolio/static/media/profile.2e1b3b0e.jpg",
     "static/media/sajidas.jpg": "/portfolio/static/media/sajidas.dcc32f38.jpg",
@@ -22,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.08e71136.js",
-    "static/js/2.176dfa50.chunk.js",
-    "static/css/main.63d1a3d0.chunk.css",
-    "static/js/main.b6727874.chunk.js"
+    "static/js/2.7fc67b83.chunk.js",
+    "static/css/main.b6eb0c71.chunk.css",
+    "static/js/main.a1397ca8.chunk.js"
   ]
 }
