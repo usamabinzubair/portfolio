@@ -1,23 +1,39 @@
-.work-section {
-  height: 70vh;
-  padding-left: 150px;
-  padding-right: 50px;
-  padding-top: 200px;
-  /* background-color: #303d47; */
-}
+@media only screen and (min-width: 415px) {
+  .home-section {
+    width: 100%;
+    height: 80vh;
+    border-bottom: 4px solid #e72e47;
+    /* background-image: url(../images/homeimg.jpg); */
+    /* object-fit: cover;
+  object-fit: center center; */
+  }
 
-.all__work {
-  width: 1000px;
-  height: 400px;
-}
+  .mobile_heading {
+    opacity: 0;
+  }
 
-.three__boxes {
-  width: 1100px;
-  height: 250px;
-  display: flex;
-}
+  .work-section {
+    height: 100vh;
+    width: 100%;
+    /* background-color: #303d47; */
+    border-bottom: 4px solid #e72e47;
+  }
 
-/* .each__work {
+  .all__work {
+    height: 400px;
+    padding-top: 60px;
+    padding-left: 150px;
+  }
+
+  .three__boxes {
+    width: 1100px;
+    height: 250px;
+    padding-top: 40px;
+    display: flex;
+    border-right: 4px solid #e72e47;
+  }
+
+  /* .each__work {
   width: 333px;
   object-fit: cover;
   box-shadow: 5px 5px 5px 5px rgb(214, 214, 214);
@@ -41,79 +57,173 @@
   box-shadow: 9px 9px 9px 9px rgb(214, 214, 214);
 } */
 
-.card {
-  width: 333px;
-  transform-style: preserve-3d;
-  perspective: 900px;
-  transition: 0.5s;
-  background: #f000;
-  height: 200px;
-  margin-right: 30px;
-  margin-bottom: 50px;
-}
+  .card {
+    width: 333px;
+    transform-style: preserve-3d;
+    perspective: 900px;
+    transition: 0.5s;
+    background: #f000;
+    height: 200px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
 
-.front {
-  position: absolute;
-  width: 333px;
-  object-fit: cover;
-  transition: 0.5s;
-  backface-visibility: hidden;
-  transform: rotateX(0deg);
-  transition: 0.5s;
-  box-shadow: 0px 10px 10px rgb(50, 62, 71);
-}
+  .front {
+    position: absolute;
+    width: 333px;
+    object-fit: cover;
+    transition: 0.5s;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+    box-shadow: 0px 10px 10px rgb(50, 62, 71);
+  }
 
-.front img {
-  object-fit: cover;
-}
+  .front img {
+    object-fit: cover;
+  }
 
-.card:hover .front {
-  transform: rotateX(-180deg);
-}
+  .card:hover .front {
+    transform: rotateX(-180deg);
+  }
 
-.back {
-  position: absolute;
-  width: 333px;
-  transition: 0.5s;
-  /* background-image: linear-gradient(
+  .back {
+    position: absolute;
+    width: 333px;
+    transition: 0.5s;
+    /* background-image: linear-gradient(
     rgb(253, 241, 241),
     rgb(230, 230, 230),
     #faebed
   ); */
-  background-color: rgb(50, 62, 71);
-  backface-visibility: hidden;
-  transform: rotateX(180deg);
-  transition: 0.5s;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  cursor: pointer;
-  border: 2px solid #e72e47;
-  box-shadow: 0px 10px 10px rgb(50, 62, 71);
-  text-decoration: none;
-}
-.card .back:before {
-  content: "";
-  position: absolute;
-  height: 200px;
-  width: 333px;
+    background-color: rgb(50, 62, 71);
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #e72e47;
+    box-shadow: 0px 10px 10px rgb(50, 62, 71);
+    text-decoration: none;
+  }
+  .card .back:before {
+    content: "";
+    position: absolute;
+    height: 200px;
+    width: 333px;
+  }
+
+  .card:hover .back {
+    transform: rotateX(0deg);
+  }
+
+  .details {
+    font-family: "Barlow Condensed", sans-serif;
+    /* color: rgb(95, 95, 138); */
+    color: rgb(199, 199, 199);
+    font-size: 20px;
+    /* text-shadow: 3px 3px 5px rgb(250, 166, 166); */
+    font-family: "Share Tech Mono", monospace;
+  }
+  .details h2 {
+    text-shadow: 3px 3px 3px #e72e47;
+    color: #e72e47;
+  }
 }
 
-.card:hover .back {
-  transform: rotateX(0deg);
-}
+/* ...................... mob version ........................................*/
 
-.details {
-  font-family: "Barlow Condensed", sans-serif;
-  /* color: rgb(95, 95, 138); */
-  color: rgb(199, 199, 199);
-  font-size: 20px;
-  /* text-shadow: 3px 3px 5px rgb(250, 166, 166); */
-  font-family: "Share Tech Mono", monospace;
-}
-.details h2 {
-  text-shadow: 3px 3px 3px #e72e47;
-  color: #e72e47;
+@media only screen and (max-width: 414px) {
+  .mobile_heading {
+    font-family: "Share Tech Mono", monospace;
+    /* border-bottom: 4px solid grey; */
+    text-align: center;
+    color: #e72e47;
+    text-decoration: underline rgb(50, 62, 71);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    background: rgb(50, 62, 71, 0.4);
+  }
+  /* .card {
+    width: 100%;
+    transform-style: preserve-3d;
+    perspective: 900px;
+    transition: 0.5s;
+    background: #f000;
+    height: 200px;
+  } */
+
+  .front {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+  }
+
+  .front img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .card:hover .front {
+    transform: rotateX(-180deg);
+  }
+
+  .back {
+    /* position: absolute; */
+
+    width: 100%;
+    transition: 0.5s;
+    /* background-image: linear-gradient(
+    rgb(253, 241, 241),
+    rgb(230, 230, 230),
+    #faebed
+  ); */
+    background-color: rgb(50, 62, 71);
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 2px solid #424242;
+    /* box-shadow: 0px 10px 10px rgb(50, 62, 71); */
+    text-decoration: none;
+  }
+  .card .back:before {
+    content: "";
+    position: absolute;
+    height: 200px;
+    width: 100%;
+  }
+
+  .card:hover .back {
+    transform: rotateX(0deg);
+  }
+
+  .details {
+    font-family: "Barlow Condensed", sans-serif;
+    /* color: rgb(95, 95, 138); */
+    color: rgb(199, 199, 199);
+    font-size: 20px;
+    /* text-shadow: 3px 3px 5px rgb(250, 166, 166); */
+    font-family: "Share Tech Mono", monospace;
+  }
+  .details h2 {
+    /* text-shadow: 3px 3px 3px #e72e47; */
+    color: #e72e47;
+  }
 }

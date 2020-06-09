@@ -61,6 +61,61 @@ class About extends Component {
           </Flip>
         </div>
 
+        {/* ..........mob --- circle ---- div.................. */}
+        <h1 className="mobile_heading">About Me</h1>
+        <div className="mob_circle_div_wrapper">
+          <div className="mob_circlediv1">
+            <Flip top>
+              <div className="test">
+                <div className="creative">
+                  <FaPaintBrush className="paintbrush" />
+                </div>
+                <h2 className="headings">Creative</h2>
+                <p className="subheadings">
+                  I like to style things which are fun to see.
+                </p>
+              </div>
+            </Flip>
+            <Flip top>
+              <div className="test">
+                <div className="dynamic">
+                  <IoMdGlasses />
+                </div>
+                <h2 className="headings">Dynamic</h2>
+
+                <p className="subheadings">
+                  Why have everything static I like making things move.
+                </p>
+              </div>
+            </Flip>
+          </div>
+          <div className="mob_circlediv2">
+            <Flip top>
+              <div className="test">
+                <div className="adaptive">
+                  <FaLaptopCode />
+                </div>
+                <h2 className="headings">Adaptive</h2>
+                <p className="subheadings">
+                  There are alot of technologies out there, throw it at me I ll
+                  learn it!
+                </p>
+              </div>
+            </Flip>
+            <Flip left>
+              <div className="test">
+                <div className="time">
+                  <MdTimer />
+                </div>
+                <h2 className="headings">Punctual</h2>
+                <p className="subheadings">
+                  Deadlines are Important, I stick to mine.
+                </p>
+              </div>
+            </Flip>
+          </div>
+        </div>
+
         <div className="skills__profile">
           <div>
             <div className="profile__main">
@@ -76,43 +131,45 @@ class About extends Component {
               </div>
             </div>
           </div>
-          <div className="skills">
-            <li>
-              <h3>HTML</h3>
-              <span className="bar">
-                <span className="html"></span>
-              </span>
-            </li>
-            <li>
-              <h3>CSS</h3>
-              <span className="bar">
-                <span className="css"></span>
-              </span>
-            </li>
-            <li>
-              <h3>JAVASCRIPT</h3>
-              <span className="bar">
-                <span className="javascript"></span>
-              </span>
-            </li>
-            <li>
-              <h3>REACT</h3>
-              <span className="bar">
-                <span className="react"></span>
-              </span>
-            </li>
-            <li>
-              <h3>JQUERY</h3>
-              <span className="bar">
-                <span className="jquery"></span>
-              </span>
-            </li>
-            <li>
-              <h3>NODE</h3>
-              <span className="bar">
-                <span className="node"></span>
-              </span>
-            </li>
+          <div className="skills_wrapper">
+            <div className="skills">
+              <li>
+                <h3>HTML</h3>
+                <span className="bar">
+                  <span className="html"></span>
+                </span>
+              </li>
+              <li>
+                <h3>CSS</h3>
+                <span className="bar">
+                  <span className="css"></span>
+                </span>
+              </li>
+              <li>
+                <h3>JAVASCRIPT</h3>
+                <span className="bar">
+                  <span className="javascript"></span>
+                </span>
+              </li>
+              <li>
+                <h3>REACT</h3>
+                <span className="bar">
+                  <span className="react"></span>
+                </span>
+              </li>
+              <li>
+                <h3>JQUERY</h3>
+                <span className="bar">
+                  <span className="jquery"></span>
+                </span>
+              </li>
+              <li>
+                <h3>NODE</h3>
+                <span className="bar">
+                  <span className="node"></span>
+                </span>
+              </li>
+            </div>
           </div>
         </div>
       </div>

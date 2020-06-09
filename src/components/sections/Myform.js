@@ -1,4 +1,5 @@
 import React from "react";
+import Bounce from "react-reveal/Bounce";
 
 export default class MyForm extends React.Component {
   constructor(props) {
@@ -12,41 +13,51 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <form
-        className="contact"
-        onSubmit={this.submitForm}
-        action="https://formspree.io/mgenklwl"
-        method="POST"
-      >
-        <h2>GET IN TOUCH</h2>
-        <h3>NAME</h3>
-        <input
-          className="smallInput"
-          type="text"
-          name="name"
-          placeholder="Name"
-        />
-        <h3> YOUR EMAIL</h3>
-        <input
-          type="email"
-          name="email"
-          className="smallInput"
-          placeholder="Email"
-        />
-        <h3>MESSAGE</h3>
-        <input
-          type="text"
-          name="message"
-          className="messageInput"
-          placeholder="Message"
-        />
-        {status === "SUCCESS" ? (
-          <p>Thanks!</p>
-        ) : (
-          <button className="submitBtn">Submit</button>
-        )}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
-      </form>
+      <div className="contactwrapper">
+        <form
+          className="contact"
+          onSubmit={this.submitForm}
+          action="https://formspree.io/mgenklwl"
+          method="POST"
+        >
+          <Bounce top>
+            <h2>GET IN TOUCH</h2>
+          </Bounce>
+          <Bounce left>
+            <h3>NAME</h3>
+            <input
+              className="smallInput"
+              type="text"
+              name="name"
+              placeholder="Name"
+            />
+            <h3> YOUR EMAIL</h3>
+            <input
+              type="email"
+              name="email"
+              className="smallInput"
+              placeholder="Email"
+            />
+            <h3>MESSAGE</h3>
+            <input
+              type="text"
+              name="message"
+              className="messageInput"
+              placeholder="Message"
+            />
+          </Bounce>
+          <br></br>
+          <br></br>
+          {status === "SUCCESS" ? (
+            <p>Thanks!</p>
+          ) : (
+            <Bounce right>
+              <button className="submitBtn">Submit</button>
+            </Bounce>
+          )}
+          {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        </form>
+      </div>
     );
   }
 
