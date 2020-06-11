@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.940e0c50.chunk.css",
-    "main.js": "/portfolio/static/js/main.93c58d62.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.93c58d62.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.3a5c7cca.chunk.css",
+    "main.js": "/portfolio/static/js/main.dd2c0582.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.dd2c0582.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.08e71136.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.08e71136.js.map",
-    "static/js/2.f3dcc8fe.chunk.js": "/portfolio/static/js/2.f3dcc8fe.chunk.js",
-    "static/js/2.f3dcc8fe.chunk.js.map": "/portfolio/static/js/2.f3dcc8fe.chunk.js.map",
+    "static/js/2.e1d3900f.chunk.js": "/portfolio/static/js/2.e1d3900f.chunk.js",
+    "static/js/2.e1d3900f.chunk.js.map": "/portfolio/static/js/2.e1d3900f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.b2c951913ff9ce1dce43c8fa4c12bf3d.js": "/portfolio/precache-manifest.b2c951913ff9ce1dce43c8fa4c12bf3d.js",
+    "precache-manifest.ca34a0d8873b668033fa29930bff04d5.js": "/portfolio/precache-manifest.ca34a0d8873b668033fa29930bff04d5.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.940e0c50.chunk.css.map": "/portfolio/static/css/main.940e0c50.chunk.css.map",
-    "static/js/2.f3dcc8fe.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f3dcc8fe.chunk.js.LICENSE.txt",
+    "static/css/main.3a5c7cca.chunk.css.map": "/portfolio/static/css/main.3a5c7cca.chunk.css.map",
+    "static/js/2.e1d3900f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e1d3900f.chunk.js.LICENSE.txt",
     "static/media/apocalypse.jpg": "/portfolio/static/media/apocalypse.d9328fe1.jpg",
     "static/media/dicegme.jpg": "/portfolio/static/media/dicegme.893c9224.jpg",
     "static/media/homeimg.jpg": "/portfolio/static/media/homeimg.f8037a27.jpg",
     "static/media/contact.css": "/portfolio/static/media/keyboard.69d112c6.jpeg",
     "static/media/keycode.jpg": "/portfolio/static/media/keycode.9c8287e0.jpg",
     "static/media/profile.jpg": "/portfolio/static/media/profile.2e1b3b0e.jpg",
+    "static/media/redditclone.jpg": "/portfolio/static/media/redditclone.0a457186.jpg",
     "static/media/sajidas.jpg": "/portfolio/static/media/sajidas.dcc32f38.jpg",
     "static/media/weatherapp.jpg": "/portfolio/static/media/weatherapp.d7912e0a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.08e71136.js",
-    "static/js/2.f3dcc8fe.chunk.js",
-    "static/css/main.940e0c50.chunk.css",
-    "static/js/main.93c58d62.chunk.js"
+    "static/js/2.e1d3900f.chunk.js",
+    "static/css/main.3a5c7cca.chunk.css",
+    "static/js/main.dd2c0582.chunk.js"
   ]
 }
