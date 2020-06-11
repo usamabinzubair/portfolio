@@ -5,7 +5,7 @@ import dicegame from "../images/dicegme.jpg";
 import keycode from "../images/keycode.jpg";
 import weatherapp from "../images/weatherapp.jpg";
 import sajidas from "../images/sajidas.jpg";
-import homeimg from "../images/homeimg.jpg";
+import redditclone from "../images/redditclone.jpg";
 import Flip from "react-reveal/Flip";
 
 class Work extends Component {
@@ -20,12 +20,17 @@ class Work extends Component {
                 <div className="front">
                   <img src={dicegame} alt="" width="333px" height="200px" />
                 </div>
-                <div className="back">
+
+                <a
+                  className="back"
+                  href="https://usamabinzubair.github.io/dicegame/"
+                  target="blank"
+                >
                   <div className="details">
                     <h2>DICE GAME</h2>
                     <p>Dicegame made using Dom.js, HTML and CSS</p>
                   </div>
-                </div>
+                </a>
               </div>
             </Flip>
             <Flip right>
@@ -40,6 +45,7 @@ class Work extends Component {
                       A Social Media App created in times of COVID-19, using
                       Mern Stack.
                     </p>
+                    <p>Uploaded Soon</p>
                   </div>
                 </div>
               </div>
@@ -49,12 +55,16 @@ class Work extends Component {
                 <div className="front">
                   <img src={keycode} alt="" width="333px" height="200px" />
                 </div>
-                <div className="back">
+                <a
+                  className="back"
+                  href=" https://usamabinzubair.github.io/keycode/"
+                  target="blank"
+                >
                   <div className="details">
                     <h2>KeyCode</h2>
                     <p>Javascript Keycode made using Dom.js</p>
                   </div>
-                </div>
+                </a>
               </div>
             </Flip>
           </div>
@@ -69,6 +79,7 @@ class Work extends Component {
                   <div className="details">
                     <h2>Weather App</h2>
                     <p>A weather App created using Node and express.</p>
+                    <p>Uploaded Soon</p>
                   </div>
                 </div>
               </div>
@@ -93,14 +104,21 @@ class Work extends Component {
             <Flip right>
               <div className="card">
                 <div className="front">
-                  <img src={homeimg} alt="" width="333px" height="200px" />
+                  <img src={redditclone} alt="" width="333px" height="200px" />
                 </div>
-                <div className="back">
+                <a
+                  className="back"
+                  href=" https://usamabinzubair.github.io/redditclone/"
+                  target="blank"
+                >
                   <div className="details">
-                    <h2>DICE GAME</h2>
-                    <p>Dicegame made using Dom.js, HTML and CSS</p>
+                    <h2>Reddit Clone</h2>
+                    <p>
+                      Reddit Clone made usng React.js, css and html. Also a
+                      mobile version.
+                    </p>
                   </div>
-                </div>
+                </a>
               </div>
             </Flip>
           </div>

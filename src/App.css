@@ -8,7 +8,7 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: #e72e47;
-  border-bottom: 4px solid rgb(133, 133, 133);
+  border-bottom: 3px solid rgb(133, 133, 133);
 }
 
 ::-webkit-scrollbar-thumb:hover {
